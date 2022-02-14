@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+body{
+    background-color:#34ebd8;
+}
+
+.profile{
+    margin-left: 10%;
+}
+
+.para1{
+    width: 60%;
+    margin-left: 10%;
+}
