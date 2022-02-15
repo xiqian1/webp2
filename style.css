@@ -19,3 +19,37 @@ body{
     width: 60%;
     margin-left: 10%;
 }
+
+.wrapper .sidebar{
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 100%;
+    transition: 0.5s;
+    overflow-x: hidden;
+}
+.wrapper .sidebar .close{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+}
+.hamburger{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #34ebd8;
+    padding: 10px 15px;
+    border: none;
+}
+
+.hamburger:hover{
+    background-color: #66f0e2;
+}
+
+.wrapper .sidebar h3{
+    margin: 10px;
+}
