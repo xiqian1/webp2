@@ -8,6 +8,15 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <a href="#" class="close" onclick="exit()">x</a>
+            <h3>Table of Content</h3>
+        </div>
+    </div>
+
+    <button class="hamburger" onclick="ham()">☰</button>
+
     <div>
         <h1>Welcome to my Website</h1>
     </div>
@@ -22,4 +31,12 @@
         I hope you all enjoy it.
     </p>
 </body>
+<script>
+    function ham(){
+        document.querySelector(".sidebar").style.width="200px";
+    }
+    function exit(){
+        document.querySelector(".sidebar").style.width="0px";
+    }
+</script>
 </html>
